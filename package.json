@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.0rc5",
+    "html-minifier": "^3.0.1",
+    "jade": "*",
+    "kue": "^0.11.1",
+    "lokijs": "^1.4.1",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "supertest": "^1.2.0"
+  }
+}
