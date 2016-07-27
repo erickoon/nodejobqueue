@@ -34,3 +34,9 @@ To run the app - node app.js
 
 To run tests - mocha tests.js
 
+## Endpoints
+
+GET - http://localhost:3000/jobs/{id}
+POST - http://localhost:3000/jobs/
+Payload - {"url":"http://www.google.com"}
+
